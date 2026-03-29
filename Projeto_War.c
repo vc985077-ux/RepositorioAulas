@@ -99,6 +99,8 @@ int main() {
             break;
         default:
             printf("Opção inválida. Por favor, escolha uma opção válida.\n\n");
+            printf("\nPressione Enter para continuar...");
+            getchar(); //Pausa para o usuário ler a mensagem antes de voltar ao menu
         } 
     } while (opcao != 0);
 };
